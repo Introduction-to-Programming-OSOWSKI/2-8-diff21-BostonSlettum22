@@ -1,7 +1,7 @@
 def diff21(n):
-    if abs(n-21):
-        return abs(n-21)
+    if (21 > n):
+        return abs(21 - n)
     else:
-        return 0
+        return 2 * (abs(21 - n))
 
 print(diff21(13))
